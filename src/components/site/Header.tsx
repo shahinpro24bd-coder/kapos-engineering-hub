@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/keg-logo.jpg.asset.json";
+import logo from "@/assets/keg-logo.png";
 
 const NAV = [
   { label: "Home", href: "#home" },
@@ -20,11 +20,11 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center gap-6 px-5 py-3 lg:px-8">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src={logo.url}
+            src={logo}
             alt="Kapos Engineering Group logo"
-            width={56}
-            height={56}
-            className="h-11 w-11 object-cover"
+            width={160}
+            height={98}
+            className="h-11 w-auto object-contain"
           />
           <span className="leading-none">
             <span className="display block text-lg tracking-wide">Kapos</span>
