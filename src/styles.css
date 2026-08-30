@@ -64,11 +64,6 @@
 @theme {
   --font-display: "Anton", "Arial Narrow", sans-serif;
   --font-sans: "Barlow", system-ui, sans-serif;
-  --color-brand: var(--brand);
-  --color-brand-foreground: var(--brand-foreground);
-  --color-ink: var(--ink);
-  --color-ink-soft: var(--ink-soft);
-  --color-steel: var(--steel);
 }
 
 :root {
