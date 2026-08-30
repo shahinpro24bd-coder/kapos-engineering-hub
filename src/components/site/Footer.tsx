@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-import logo from "@/assets/keg-logo.jpg.asset.json";
+import logo from "@/assets/keg-logo.png";
 
 export function Footer() {
   return (
@@ -7,16 +7,18 @@ export function Footer() {
       <div className="grid-lines border-t border-white/10">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-4 lg:px-8">
           <div>
-            <div className="flex items-center gap-3">
+            <div className="inline-flex flex-col gap-4 border border-white/10 bg-white/[0.03] p-6">
               <img
-                src={logo.url}
+                src={logo}
                 alt="Kapos Engineering Group logo"
-                width={56}
-                height={56}
+                width={472}
+                height={289}
                 loading="lazy"
-                className="h-12 w-12 object-cover"
+                className="h-24 w-auto object-contain"
               />
-              <span className="display text-xl">Kapos</span>
+              <span className="text-[0.62rem] uppercase tracking-[0.3em] text-white/45">
+                Kapos Engineering Group
+              </span>
             </div>
             <p className="mt-5 text-sm leading-relaxed text-white/55">
               Engineering works company based in Lilongwe, Malawi — building, installing and
